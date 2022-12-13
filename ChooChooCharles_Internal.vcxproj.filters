@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pch">
+      <UniqueIdentifier>{0ba01a25-5194-45eb-8d4c-657b869ee54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{bfd1df2f-6f4c-4e08-aee8-d530c9359c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addresses">
+      <UniqueIdentifier>{54faf017-8710-4faa-84ce-e8f4254cae6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offsets">
+      <UniqueIdentifier>{033697de-5b45-4f5a-bf36-79058dbba34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{81100f77-8346-465f-902e-b3fd7125ec93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="address.cpp">
+      <Filter>Addresses</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
